@@ -2,19 +2,39 @@
   width: 30vw;
   height: 100vh;
 }
+
 #siteLogo{
   width: 100%;
 }
+
 body {
   display: flex;
+  background-color:darkturquoise;
 }
+
 #staffGallery{
   width: 70vw;
-  display: inherit;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
 
+#titletext{
+  color:crimson
+}
+
+.text{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .galleryImage{
   width: 100%;
   height: auto;
   height: 300px;
 }
+
+@media (width <= 600px){
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+}   

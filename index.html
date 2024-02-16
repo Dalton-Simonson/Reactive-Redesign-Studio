@@ -14,18 +14,34 @@
   </head>
 
   <!-- page content goes into <body> -->
-  <body>
+  <body class="main">
     <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
+      <h1 class="text" id = titletext>Welcome to 100 Acre Wood!</h1>
       <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
+      <h3 class="text">We're glad you're here :D</h3>
     </div>
     <hr/>
     <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
+      <div class="card">
+        <img class="galleryImage" src="./assets/Eeyore-Eh.png" alt="Eeyore sleeping on his head"/>
+        <p class="character_name">Eeyore-Eh</p>
+      </div>
+
+      <div class="card">
+        <img class="galleryImage" src="./assets/Eeyore-Zz.png" alt="Eeyore sleeping sitting up"/>
+        <p class="character_name">Eeyore-Zz</p>
+      </div>
+
+      <div class="card">
+        <img class="galleryImage" src="./assets/Kanga-Roo.png" alt="Kangaroo with baby in its pouch">
+        <p class="character_name">Kanga-Roo</p>
+      </div>
+
+      <div class="card">
+        <img class="galleryImage" src="./assets/Owl-Phone.png"  alt="Owl using an iphone"/>
+        <p class="character_name">Owl-Phone</p>
+      </div>
+      
     </div>
   </body>
 
